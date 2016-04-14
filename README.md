@@ -25,3 +25,5 @@ semanage port -a -t syslogd_port_t -p tcp 9092
 ```
 
 I've commented the config as best I can.
+
+It should be noted that I also use Consul and the service discovery system so that my Rsyslog servers only need one name definition in any given line.
